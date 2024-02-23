@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 100vw;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: 10% auto;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.counter-div {
+    padding: 5px;
+    border: 1px solid red;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter-div span {
+    font-weight: bold;
+    font-size: 34px;
+    padding: 10px;
+}
