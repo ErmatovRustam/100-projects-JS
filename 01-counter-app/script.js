@@ -9,3 +9,4 @@ document.querySelector('.add').addEventListener('click', () => {
 document.querySelector('.reset').addEventListener('click', () => {
   document.querySelector('.count').innerHTML = 0
 })
+// comment
